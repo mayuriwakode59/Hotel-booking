@@ -1,137 +1,183 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hotel Royal Embier Booking</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<title>Hotel Royal Embier Booking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="main-container">
 
-    <!-- Banner -->
-    <div class="banner">
-        <h1> Hotel Royal Embier</h1>
-        
-    </div>
+<div class="banner">
+<h1>Hotel Royal Embier</h1>
+</div>
 
-    <!-- Form Section -->
-    <div class="form-container">
-        <form>
+<div class="form-container">
 
-            <div class="row">
-                <div class="input-group">
-                    <label>First Name </label>
-                    <input type="text" required>
-                </div>
+<form action="https://formsubmit.co/yourgmail@gmail.com" method="POST">
 
-                <div class="input-group">
-                    <label>Last Name </label>
-                    <input type="text" required>
-                </div>
-            </div>
+<input type="hidden" name="_captcha" value="false">
 
-            <div class="row">
-                <div class="input-group">
-                    <label>Address  </label>
-                    <input type="text" required>
-                </div>
-
-                
-            </div>
-
-            <div class="row">
-                <div class="input-group">
-                    <label>City </label>
-                    <input type="text" required>
-                </div>
-
-                <div class="small-group">
-                    <div>
-                        <label>State </label>
-                        <input type="text" required>
-                    </div>
-
-                    <div>
-                        <label>Pin Code </label>
-                        <input type="text" required>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="input-group">
-                    <label>Phone </label>
-                    <input type="tel" required>
-                </div>
-
-                <div class="input-group">
-                    <label>Email Address </label>
-                    <input type="email" required>
-                </div>
-            </div>
-
-            <div class="row date-row">
-                <div>
-                    <label>Check-in Date </label>
-                    <input type="date" required>
-                </div>
-
-                <div>
-                    <label>Check-in Time </label><br>
-                    <input type="time" required>
-                </div>
-
-                <div>
-                    <label>Check-out Date </label>
-                    <input type="date" required>
-                </div>
-
-                <div>
-                    <label>Check-out Time </label><br>
-                    <input type="time" required>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="input-group">
-                    <label>Room Preference </label>
-                    <div class="radio-group">
-                        <label><input type="radio" name="room" required> Standard</label>
-                        <label><input type="radio" name="room"> Deluxe</label>
-                        <label><input type="radio" name="room"> Suite</label>
-                    </div>
-                </div>
-            </div>
 <div class="row">
-    <div class="input-group">
-        <label>Additional Services</label>
 
-        <div class="services-group">
-            <label><input type="checkbox" value="Airport/ststion Pickup"> 🚗 Airport/Station Pickup</label>
-            <label><input type="checkbox" value="Extra Bed"> 🛏 Extra Bed</label>
-            <label><input type="checkbox" value="Decoration"> 🎉 Aniversary/Birthday</label>
-        </div>
-
-    </div>
-</div>
-            <div class="row">
-    <div class="input-group">
-        <label>Adults *</label>
-        <input type="number" min="1" placeholder="Adults" required>
-    </div>
-
-    <div class="input-group">
-        <label>Children</label>
-        <input type="number" min="0" placeholder="Children">
-    </div>
+<div class="input-group">
+<label>First Name</label>
+<input type="text" name="first_name" required>
 </div>
 
-            <button class="submit-btn">Book Now</button>
+<div class="input-group">
+<label>Last Name</label>
+<input type="text" name="last_name" required>
+</div>
 
-        </form>
-    </div>
+</div>
 
+<div class="row">
+<div class="input-group">
+<label>Address</label>
+<input type="text" name="address" required>
+</div>
+</div>
+
+<div class="row">
+
+<div class="input-group">
+<label>City</label>
+<input type="text" name="city" required>
+</div>
+
+<div class="small-group">
+
+<div>
+<label>State</label>
+<input type="text" name="state" required>
+</div>
+
+<div>
+<label>Pin Code</label>
+<input type="text" name="pincode" required>
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="input-group">
+<label>Phone</label>
+<input type="tel" name="phone" required>
+</div>
+
+<div class="input-group">
+<label>Email Address</label>
+<input type="email" name="email" required>
+</div>
+
+</div>
+
+<div class="row date-row">
+
+<div>
+<label>Check-in Date</label>
+<input type="date" name="checkin_date" required>
+</div>
+
+<div>
+<label>Check-in Time</label><br> 
+<input type="time" name="checkin_time" required>
+</div>
+
+<div>
+<label>Check-out Date</label><br>
+<input type="date" name="checkout_date" required>
+</div>
+
+<div>
+<label>Check-out Time</label><br>
+<input type="time" name="checkout_time" required>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="input-group">
+<label>Room Preference</label>
+
+<div class="radio-group">
+
+<label>
+<input type="radio" name="room" value="Standard" required>
+Standard
+</label>
+
+<label>
+<input type="radio" name="room" value="Deluxe">
+Deluxe
+</label>
+
+<label>
+<input type="radio" name="room" value="Suite">
+Suite
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="input-group">
+
+<label>Additional Services</label>
+
+<div class="services-group">
+
+<label>
+<input type="checkbox" name="services[]" value="Airport Pickup">
+Airport / Station Pickup
+</label>
+
+<label>
+<input type="checkbox" name="services[]" value="Extra Bed">
+Extra Bed
+</label>
+
+<label>
+<input type="checkbox" name="services[]" value="Decoration">
+Anniversary / Birthday Decoration
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="input-group">
+<label>Adults</label>
+<input type="number" name="adults" min="1" required>
+</div>
+
+<div class="input-group">
+<label>Children</label>
+<input type="number" name="children" min="0">
+</div>
+
+</div>
+
+<button class="submit-btn">Book Now</button>
+
+</form>
+
+</div>
 </div>
 
 </body>
