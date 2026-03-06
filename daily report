@@ -1,0 +1,7 @@
+Today I worked on the Hotel Royal Embier Booking Form project.
+I created a booking form using HTML and CSS and connected it with FormSubmit so that when a user fills the form and clicks Book Now, the booking details are automatically sent to the hotel owner's email.
+
+I also organized the project files for GitHub including index.html, style.css, and README.md.
+
+Result: The booking form is working and email notifications are successfully integrated.
+Next Step: Improve design and add more features like database storage and admin panel.
